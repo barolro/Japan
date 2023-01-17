@@ -152,7 +152,7 @@ body {
     grid-gap: 20px; 
 }
    
-.img1, .img-4, .img-3, .img-2 { 
+.img-1, .img-4, .img-3, .img-2 { 
     grid-column: 1 / span 1;
 }
     
@@ -178,9 +178,12 @@ h1 {
 .textzwei {
     grid-template-columns: repeat(1,1fr);
     grid-gap: 2em;
+    padding-bottom: 40px;
 }
 
 h2 {
+     grid-column: 1 / span 1;
+    
     font-weight: 300;
     font-size: 18px;
     
@@ -188,6 +191,9 @@ h2 {
     margin: 0;
 }
 
+.textklein {
+     grid-column: 1 / span 1;
+}
 
 }
 
@@ -198,8 +204,8 @@ h2 {
 /* button "more" */
 
 .btn {
-    top: 40px;
-    right: 15px;
+    
+    ?
 }
     
 /* footer */
@@ -212,6 +218,10 @@ h2 {
     margin-bottom: 20px;   
     }
     
+
+.footer-column2 {
+    margin-bottom: 20px;
+}
     
     
     
